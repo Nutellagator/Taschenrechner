@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class Taschenrechner2 {
     public static void main(String[] args) {
+        /*
+        1. "Scanner" = Es wird die Scanner-Klasse aufgerufen
+        2. "new" = dieses keyword wird verwendet um neue Instanz(Objekt) einer Klasse zu erstellen
+        3. "System.in" = Input Stream, sprich Text-Input über die Tastatur an dieses Programm
+         */
         Scanner scanner = new Scanner(System.in);
 
         boolean weiter = true;
